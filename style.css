@@ -1,0 +1,72 @@
+/* google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lato&family=Outfit:wght@400;700&family=Roboto:wght@700&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+/* container session  */
+.container{
+    background-color: hsl(0, 0%, 100%);
+    padding:20px;
+    width: 60vh;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 5px 5px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    font-family: 'Outfit', sans-serif;;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    height: 50%;
+    width: 40vh;
+    border-radius: 18px;
+    min-width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+ /* attribution session  */
+.attribution {
+    margin: 30px;
+     font-size: 11px; 
+     text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+/* media query  Session */
+
+/* media query for moblie  */
+@media (min-width:375px) {
+    .container{
+        width: 355px;
+    }
+}
+
+/* media query for Desktop  */
+@media (min-width: 1440px) {
+    .container{
+        width: 450px;
+    }
+}
